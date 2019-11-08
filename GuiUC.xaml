@@ -1,0 +1,15 @@
+﻿<UserControl x:Class="HalloGUI2.GuiUC"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:HalloGUI2"
+             mc:Ignorable="d" Height="122.308" Width="525.385">
+    <Grid>
+        <Label x:Name="lab_wertx" Content="Hallo Welt" HorizontalAlignment="Left" Height="26" Margin="10,10,0,0" VerticalAlignment="Top" Width="228"/>
+        <TextBox x:Name="tb_wertx" HorizontalAlignment="Left" Height="26" Margin="243,10,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="245"/>
+        <Button x:Name="btn_hide" Content="Hide" HorizontalAlignment="Right" Height="41" Margin="0,0,174,10" VerticalAlignment="Bottom" Width="165" Click="btn_hide_Click"/>
+        <Button x:Name="btn_exit" Content="Exit" HorizontalAlignment="Right" Margin="0,0,10,10" Width="159" Height="41" VerticalAlignment="Bottom" Click="btn_exit_Click"/>
+
+    </Grid>
+</UserControl>
